@@ -1,0 +1,64 @@
+/* Ekran görüntülerindeki koyu mor/lacivert temayı baz alır */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2a2a45; /* Ana arka plan rengi */
+    color: #ffffff;
+}
+
+/* ===== YAZI TİPLERİ ===== */
+.ana-baslik {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    color: #e0cffc; /* Başlıklar için açık eflatun */
+}
+
+.alt-baslik {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #e0cffc;
+}
+
+/* ===== MEKTUP BÖLÜMÜ ===== */
+#hero {
+    min-height: 100vh; /* Ekranı kaplaması için */
+}
+
+.envelope-icon {
+    font-size: 8rem; /* İkon boyutu */
+    color: #f8d7da; /* İkon rengi (soluk pembe) */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.envelope-icon:hover {
+    transform: scale(1.1); /* Üzerine gelince büyüme efekti */
+}
+
+/* ===== ANILAR BÖLÜMÜ ===== */
+#anilar {
+    background-color: #22223b; /* Bir ton daha koyu arka plan */
+}
+
+#anilar img {
+    border: 3px solid #e0cffc;
+    transition: transform 0.3s ease;
+}
+
+#anilar img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== MODAL (POP-UP) STİLLERİ ===== */
+.modal-content {
+    background-color: #3b3b5d; /* Modal arka planı */
+    border: 1px solid #e0cffc;
+    border-radius: 15px;
+}
+
+.modal-header, .modal-footer {
+    border-bottom: 1px solid #5a5a8a;
+    border-top: 1px solid #5a5a8a;
+}
